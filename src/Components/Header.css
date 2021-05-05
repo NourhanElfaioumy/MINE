@@ -1,0 +1,18 @@
+.icons {
+  background-color: black;
+  height: 34px;
+}
+.sp-top-bar li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}

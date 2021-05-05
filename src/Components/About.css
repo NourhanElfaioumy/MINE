@@ -1,0 +1,114 @@
+.section {
+  width: 100%;
+  min-height: 70vh;
+  background: #f7f7f7;
+}
+.inner-container {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+.content-section {
+  float: left;
+  width: 55%;
+}
+.imagge-section {
+  float: right;
+  width: 40%;
+}
+.imagge-section img {
+  width: 100%;
+  height: auto;
+  padding-top: 61px;
+  filter: grayscale(100%);
+}
+.imagge-section img {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  transition: 1s;
+}
+.content-section .title {
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  text-align: center;
+}
+.content-section .title h1 {
+  font-weight: 800;
+  font-family: monospace;
+  color: #302b63;
+  border-bottom: 1px solid black;
+  width: 176px;
+  margin: auto;
+  animation: textt 6s 1;
+}
+
+@keyframes textt {
+  0% {
+    color: white;
+  }
+  30% {
+    letter-spacing: 15px;
+  }
+  85% {
+    letter-spacing: 8px;
+  }
+}
+.content-section .contennt h3 {
+  margin-top: 20px;
+  color: #780206;
+  font-size: 21px;
+  font-weight: 700;
+}
+.content-section .contennt p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  color: #780206;
+}
+.content-section .contennt .button {
+  margin-top: 30px;
+}
+.content-section .contennt .button {
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.content-section .contennt .button:hover {
+  background: #c33764;
+  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+  background: linear-gradient(to right, #1d2671, #c33764);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-container {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .imagge-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .content-section .title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .imagge-section img {
+    margin-bottom: 20px;
+  }
+}
