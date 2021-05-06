@@ -48,7 +48,7 @@ function Footer() {
             <li>
               <a href="#">
                 {" "}
-                <Link to={"/contact"}>Contact</Link>
+                <Link to={"/contact"}>Contact US</Link>
               </a>
             </li>
           </ul>
