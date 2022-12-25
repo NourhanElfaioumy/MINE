@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg ">
-      <NavLink className="navbar-brand navbar-logo log" to="/" exact>
+      <NavLink className="navbar-brand navbar-logo log " to="/home" exact>
         OCTA-TEK
       </NavLink>
 

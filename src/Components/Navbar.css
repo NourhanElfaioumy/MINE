@@ -4,13 +4,24 @@ i {
 .navbar-logo {
   padding: 15px;
   color: #fff;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 .log {
   font-size: 22px;
   margin-left: 8px;
   font-weight: 1000;
   font-family: cursive;
+  cursor:pointer ;
+
+}
+.log:hover {
+  font-size: 22px;
+  margin-left: 8px;
+  font-weight: 1000;
+  color: #fff;
+  font-family: cursive;
+  cursor:pointer ;
+
 }
 .navbar-mainbg {
   background: #c33764;
@@ -80,7 +91,7 @@ i {
   height: 100%;
   top: 0px;
   left: 0px;
-  transition-duration: 3s;
+  transition-duration: 2s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   background-color: #fff;
   border-top-left-radius: 34px;
@@ -112,11 +123,11 @@ i {
 }
 .hori-selector .right:before {
   bottom: 0;
-  right: -25px;
+  right: -15px;
 }
 .hori-selector .left:before {
   bottom: 0;
-  left: -25px;
+  left: -15px;
 }
 @media (max-width: 991px) {
   #navbarSupportedContent ul li a {

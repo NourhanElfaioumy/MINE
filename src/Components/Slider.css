@@ -11,7 +11,7 @@
 }
 .scroll-down {
   position: absolute;
-  bottom: 35%;
+  bottom: 41%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);

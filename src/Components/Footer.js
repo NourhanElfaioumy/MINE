@@ -10,9 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 function Footer() {
   return (
-    //   <div className="footer">
-    //     <p>© 2021 Octa-Tek</p>
-    //   </div>
+
     <div className="footer">
       <div className="footer-info">
         <div className="footer-width about">
@@ -78,7 +76,7 @@ function Footer() {
         </div>
       </div>
       <div className="copy-right">
-        <p>© 2021 OCTA-TEK ALL RIGHTS RESERVED</p>
+        <p>© 2022 OCTA-TEK ALL RIGHTS RESERVED</p>
       </div>
     </div>
   );
